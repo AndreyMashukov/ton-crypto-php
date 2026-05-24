@@ -3,7 +3,8 @@
     "description": "Ed25519 keypairs and TON-style mnemonic seed derivation for The Open Network, in pure PHP on top of ext-sodium.",
     "type": "library",
     "license": "MIT",
-    "keywords": ["ton", "the-open-network", "ed25519", "mnemonic", "crypto", "wallet", "blockchain"],
+    "homepage": "https://github.com/AndreyMashukov/ton-crypto-php",
+    "keywords": ["ton", "the-open-network", "ed25519", "mnemonic", "cryptography", "keypair", "crypto", "wallet", "blockchain", "libsodium", "pbkdf2", "seed", "sign"],
     "authors": [
         {
             "name": "Andrei Mashukov",
@@ -11,6 +12,10 @@
             "homepage": "https://github.com/AndreyMashukov"
         }
     ],
+    "support": {
+        "issues": "https://github.com/AndreyMashukov/ton-crypto-php/issues",
+        "source": "https://github.com/AndreyMashukov/ton-crypto-php"
+    },
     "require": {
         "php": ">=8.3",
         "ext-sodium": "*",
